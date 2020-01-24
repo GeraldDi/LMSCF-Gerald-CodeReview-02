@@ -1,0 +1,49 @@
+body{
+	margin:  0 auto;
+	text-align: center;
+	font-family:"Arial";
+/*border nur zu testzwecken dann löschen*/
+	border: 5px solid black;
+}
+header{
+	background-color:red;
+		border: 5px solid green;
+		/*border nur zu testzwecken dann löschen*/
+}
+#topheader{
+	padding: 10px;
+	display: flex;	
+	flex-flow: row;
+	justify-content: space-around;
+}
+#navbartop{
+	background-color: black;
+	display: flex;	
+	flex-flow: row;
+}
+.navi{
+	padding: 15px;
+	color:white;
+}
+.horbar{
+	color:black;
+	background-color:lightgrey;
+	width: 80%;
+}
+#section1{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 1099px) {
+    .invisibleonmobile{
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 1099px) {
+    .onlymobile{
+        visibility: hidden;
+    }
+}
