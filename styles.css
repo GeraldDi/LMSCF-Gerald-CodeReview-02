@@ -2,10 +2,18 @@ body{
 	margin:  0 auto;
 	text-align: center;
 	font-family:"Arial";
+	color: white;
+
+}
+a{
+	color:white;
+	text-decoration: none;
+	
 }
 #topheader{
 	padding: 10px;
-	margin-bottom: -20px;
+	padding-top: 30px;
+	margin-bottom: -32px;
 	display: flex;	
 	flex-flow: row;
 	justify-content: space-around;
@@ -16,6 +24,8 @@ body{
 	display: flex;	
 	flex-flow: row;
 	border-bottom: 50px;
+	font-size: 2em;
+
 }
 #navbarbottom{
 	background-color: black;
@@ -32,16 +42,23 @@ body{
 #horbar1{
 	color:black;
 	background-color:lightgrey;
-	width: 104.4%;
+	width: 106%;
 	text-align: left;
-	margin-left: 4%;
+	margin-left: 1.8%;
+	font-size: 2em;
 }
 #horbar2{
 	color:black;
 	background-color:lightgrey;
-	width: 96%;
+	width: 97%;
 	text-align: left;
-	margin-left: 4%;
+	margin-left: 1.8%;
+	font-size: 2em;
+}
+#date{
+	text-align: right;
+	color: black;
+	padding-right: 50px;
 }
 #section1{
 	display: flex;
